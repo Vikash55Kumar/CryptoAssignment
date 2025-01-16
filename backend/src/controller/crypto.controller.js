@@ -48,9 +48,6 @@ const getTargetDetails = async(req, res) => {
     )
 }
 
-// const url = "https://api.coingecko.com/api/v3/coins/markets";
-// const url = "https://api.livecoinwatch.com/coins/list";
-
 const fetchCryptoPrices = async () => {
     const cacheKey = "crypto_prices";
 
@@ -92,7 +89,7 @@ const fetchCryptoPrices = async () => {
             {
                 headers: {
                     'Content-Type': 'application/json',
-                    'x-api-key': "de64949a-f1a6-4398-b352-a7dbc2ff1cc0",
+                    'x-api-key': "",
                 },
             
         });
